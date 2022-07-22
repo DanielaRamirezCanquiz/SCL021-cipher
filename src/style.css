@@ -1,27 +1,70 @@
-html, body {
-    background-color: lightblue
-    background-img: center
-    height: 100%;
-    width: 100%;
+#beginning{
+    background-size: cover;
+    background-image: url(./Image/fondo7.jpg);
+    max-width: 80%;
+    max-height: 80%;
+    border: 5px;
+    border-style: groove;
+    margin:90px;
+    padding: 25px;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+  
   }
+  
+
   h1 {
-    color: #2997ff;
+  
+    color:rgb(249, 249, 249); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    font-size: 40px
+    font-size: 45px;
+    border: 5px;
+    border-style: groove;
+    border-color: rgb(8, 128, 70);
+    border-radius: 5px;
+    border-spacing: 80px;
   }
-  img scr {
-        max-width: 70%;
-        max-height: 70%;
-        align: center
+
+  #desplazamiento{
+    cursor: pointer;
+    border: none;
+    color: darkgreen;
+
+ 
   }
-  label for { 
-    label for:verdana
+
+  .container{
+    background-color:rgb(2, 76, 1);
+    color:aliceblue;
+    -moz-box-align: center;
+   
+
+  }
+
+  .botones{
+    background-color:rgb(6, 135, 4);
+    background-size: 20spx;
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    border:none;
+    color: white;
+    width: 20%;
+    cursor: pointer;
+    padding: 5px;
+
+
+
+  }
+  h2 {
+    color:aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     text-align: center;
-    label fot: 20px
+    font-size: 25px;
   }
   p {
-    font-family: verdana;
+    color:aliceblue;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
   }
   

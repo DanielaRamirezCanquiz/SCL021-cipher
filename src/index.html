@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css"  type="text/css" />
-  </head>
-  <body>
-    <div>
-      <section id=beginning class="beginning">
-        <h1>Koinonia</h1>
-      </section>
-    </div>
-  <div>
-    <br>
-    <br>
-  <p>Mensaje a cifrar:<br />
-  <textarea id="mensaje_input" rows="4" cols="50" placeholder="tu mensaje"></textarea></p>
-  <p><label for="quantity">Elige Desplazamiento</label>
-  <input type="number" id="quantity" name="quantity" min="1" max="26"></p>
-  <p><button onclick="codificar()">Codificar</button></p>
-    </div>
-      <div>
-        <br>
-        <p>Mensaje cifrado:<br />
-  <strong><textarea id="mensaje_output" rows="4" cols="50" placeholder="tu mensaje cifrado" readonly></textarea></strong></p>
-  <div id="thebigimage">
-  <div id="overlapthis"></div>
-      </div>
-    <script src="index.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  <div id="beginning"><br><br><br>
+      <h1>Koinonía</h1><br><br><br><br>
+      <p>Afligidos en todo, pero no agobiados; perplejos, pero no desesperados;<br>
+        perseguidos, pero no abandonados; derribados,pero no destruidos.<br>
+        Llevamos siempre en el cuerpo por todas partes la muerte de Jesús,<br>
+        para que también la vida de Jesús se manifieste en nuestro cuerpo.<br><br><br>
+        2 Corintios 4:8-10 </p><br><br><br>
+      <h2>Mensaje a cifrar:<br>
+        <p>(Solo en mayúsculas y sin la letra ñ)</p>
+        <textarea class="container" id="textoingreso" rows="4" cols="50" placeholder="tu mensaje"></textarea></h2><br>
+      <h2><label for="Desplazamiento">Elige Desplazamiento:</label>
+        <input type="number" id="desplazamiento" name="desplazamiento" min="0" max="26"><br><br><br><br>
+        <button id="cifrar" class="botones">Cifrar</button></h2><br>
+      <h2>Mensaje Cifrado:<br><br>
+        <textarea class="container" id="textocifrado" rows="4" cols="50" placeholder="tu mensaje cifrado" readonly></textarea><br><br><br>
+        <button id="decifrar" class="botones">Decifrar</button></h2><br>
+      <h2> Mensaje Decifrado:<br><br>
+       <textarea class="container" id="textodecifrado" rows="4" cols="50" placeholder="tu mensaje decifrado" readonly></textarea></h2>
+    <br><br><br><br><br>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
 </html>

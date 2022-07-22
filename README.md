@@ -1,3 +1,25 @@
+### Definición del producto
+
+Koinonía
+
+La koinonía es un concepto teológico que significa comunión. Como tal, se refiere a la comunión eclesial y a los vínculos que esta genera entre los miembros de las iglesias cristianas y Dios. La palabra proviene del griego κοινωνία (koinonía), que traduce comunión o participación en lo común. 
+
+Nuestra aplicacion web quiere lograr una comunión y una comunicación a traves del cifrado Cesár que sirva para resguardar vidas, mantenerse informados y lograr una comuniación efectiva sin ser descubiertos, todo eso por medio del anonimato.
+
+* ¿Quiénes son los principales usuarios de este producto?
+
+Los principales usuarios para este producto son personas misioneras hispano parlantes que esten en el Medio Oriente, en zona de conclicto y persecusión religiosa, los cuales necesitan comunicarse entre si, para coordinar reuniones, tiempo de comunión y culto.
+
+* ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+
+Nuestra apliación web logra el objetivo de que nuestros usuarios puedan con libertad comunicarse entre si de una manera rapida, personal y segura.
+
+
+
+
+
+
+
 # Cifrado César
 
 ## Índice
