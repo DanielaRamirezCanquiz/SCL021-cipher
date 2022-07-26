@@ -19,7 +19,7 @@ let textoDecifrado = document.getElementById("textodecifrado")
 
      // textoingreso.addEventListener("keyup", () => {
      //      this.value = this.value.toUpperCase();
-     // }, true),
+     // }, true);
 
      btnCifrar.addEventListener("click", () => {
                textoCifrado.innerText = cipher.encode(desplazamiento.value, textoingreso.value);

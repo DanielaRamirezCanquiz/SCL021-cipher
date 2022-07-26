@@ -1,4 +1,4 @@
-#beginning{
+.beginning{
     background-size: cover;
     background-image: url(./Image/fondo7.jpg);
     max-width: 80%;
@@ -25,7 +25,7 @@
     border-spacing: 80px;
   }
 
-  #desplazamiento{
+  .desplazamiento{
     cursor: pointer;
     border: none;
     color: darkgreen;
